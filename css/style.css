@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.boundery {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(122, 118, 118);
+}
+.display {
+  width: 280px;
+  height: 120px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+.check-display {
+  width: 257px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+  text-align: end;
+  margin-bottom: 18px;
+  padding: 5px 10px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+.main-display {
+    font-size: 35px;
+    margin-left: 15px;
+    overflow: hidden;
+    text-align: end;
+    width: 240px;
+}
+.buttons {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+button {
+  width: 55px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.356);
+  padding: 10px;
+  text-align: center;
+  background-color: #eee;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button-double {
+  grid-column: span 2;
+  width: 120px;
+  height: 55px;
+}
